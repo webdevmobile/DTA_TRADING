@@ -1,0 +1,189 @@
+/* .modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 260px;
+    top: 70px;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+}
+.modal-content{
+    background: #fff;
+    margin: 15px auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 5px;
+}
+.modal-content:hover{
+    transform: scale(1.05);
+    transition: 400ms;
+}
+.modal-content h2{
+    color: rgb(3, 115, 150);
+    font-size: 25px;
+}
+.close{
+    color: rgb(7, 8, 77);
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.close:hover, .close:focus{
+    color: rgb(238, 86, 86);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+.modal-content form button{
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    border: .1px solid rgb(230, 18, 18);
+    color: #fff;
+    background: rgb(230, 18, 18);
+    font-size: 20px;
+    padding: 15px;
+}
+.modal-content form i{
+    margin: 0 2px;
+} */
+table{
+    width: 100%;
+    padding: 0 20px;
+}
+table th, td{
+    padding: 20px;
+}
+.btnLogout{
+    border: none;
+    background-color: #fff;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    margin: 0 auto;
+}
+.btnLogout i{
+    margin: 0 5px;
+}
+.btnLogout:hover{
+    background-color: rgb(230, 18, 18);
+    color: #fff;
+    transition: .4s;
+    /* padding: 5px; */
+}
+.linkProfil{
+    border: none;
+    padding: 5px;
+    height: 40px;
+}
+.linkProfil i{
+    margin: 0 5px;
+}
+.linkProfil:hover{
+    background-color: rgb(18, 92, 230) !important;
+    color: #fff;
+    transition: .4s;
+    width: 100%;
+}
+
+/* Formulaire de connexion */
+.contentLogin{
+    width: 100%;
+    margin: 180px 0 0 320px;
+    position: relative;
+}
+
+.addUser{
+    width: 15%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(44, 130, 241);
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.addUser:hover{
+    background-color: rgb(44, 130, 241) !important;
+    transform: scale(1.05);
+    color: #FFFFFF;
+}
+.profilUser{
+    margin: 0;
+}
+.avatarProfile{
+    width: 150px;
+    height: 150px;
+    background-color: #c5ebf0;
+    margin: 10px auto;
+    border-radius: 100%;
+    /* border: 2px solid rgb(206, 206, 207); */
+}
+.successBtn{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* custom file */
+input[type="file"]{
+    display: none;
+}
+.fileLabel{
+    background-color: rgb(44, 130, 241);
+    color: #fff !important;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fileLabel::after{
+    content: '\f093';
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+input[type="file"]:hover + .fileLabel::after{
+    transform: rotate(90deg);
+}
+.logoImg{
+    width: 80%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.logoLogin{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: -130px;
+    right: 150px;
+    border: 2px solid rgb(226, 230, 236);
+}
+.btnTrade{
+    background-color: rgb(44, 130, 241);
+    color: #FFFFFF;
+    border: none;
+    width: 50%;
+    height: 40px;
+    /* border-radius: 10px; */
+    padding: 30px;
+    display: block;
+}
+.btnTrade:hover{
+    background-color: rgb(44, 130, 241);
+    transform: scale(1.1);
+    transition: 0.4s;
+    color: #FFFFFF;
+}
